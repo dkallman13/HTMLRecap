@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Survey</title>
+    </head>
+    <body>
+       <nav>
+        <a href="#video">Video</a>
+        <a href="#questions">Questions</a>
+       </nav>
+       <h1>User Survey</h1>
+       <p>please watch the video below and then answer the following questions</p>
+       <iframe id="Video" width="560" height="315" src="https://www.youtube.com/embed/d9WXUkWAzG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <div id="questions">
+           <form>
+               <p>Did you like the video?</p>
+               <input type="radio" id="liked" name="liked" value="yes" required><label for="liked">Yes</label>
+               <br>
+               <label for="thoughts">Any additonal thoughts?</label>
+               <br>
+               <input style="width: 500px; height: 300px;" type="text" name="thoughts" id="thoughts">
+               <br>
+               <input type="submit" value="Submit Results">
+           </form>
+       </div>
+
+    </body>
+</html>
